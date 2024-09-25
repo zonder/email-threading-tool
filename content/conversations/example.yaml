@@ -1,0 +1,96 @@
+- id: "email-1"
+  from: "michael.lee"
+  to:
+    - "sophia.garcia"
+  subject: "Meeting Request: Q2 Financial Review 2024."
+  content: |
+    <div style="font-family: Arial, sans-serif; color: #333;">
+      <p>Dear Sophia,</p>
+      <p>I'd like to schedule a meeting to review our financial performance for Q2 2024.</p>
+      <p>Please find the preliminary financial summary below:</p>
+      <div class="tableWrapper">
+        <table style="min-width: 50px;">
+          <tbody>
+            <tr>
+              <th>Category</th>
+              <th>Q1 2024</th>
+              <th>Q2 2024</th>
+            </tr>
+            <tr>
+              <th>Revenue</th>
+              <td>$1,200,000</td>
+              <td>$1,450,000</td>
+            </tr>
+            <tr>
+              <th>Expenses</th>
+              <td>$800,000</td>
+              <td>$900,000</td>
+            </tr>
+            <tr>
+              <th>Net Profit</th>
+              <td>$400,000</td>
+              <td>$550,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Looking forward to your availability.</p>
+      <p>Best regards,<br>Michael Lee<br>CEO, Global Ventures</p>
+    </div>
+  in_reply_to: null
+
+- id: "email-2"
+  from: "sophia.garcia"
+  to:
+    - "michael.lee"
+  subject: "Re: Meeting Request: Q2 Financial Review 2024."
+  content: |
+    <div style="font-family: Arial, sans-serif; color: #333;">
+      <p>Dear Michael,</p>
+      <p>Thank you for the summary.</p>
+      <p>I am available on <strong>July 15, 2024</strong> at 10:00 AM.</p>
+      <p>Does this time work for you?</p>
+      <p>Best regards,<br>Sophia Garcia<br>Senior Financial Advisor, Financial Advisors</p>
+    </div>
+  in_reply_to: "email-1"
+
+- id: "email-3"
+  from: "michael.lee"
+  to:
+    - "sophia.garcia"
+  subject: "Re: Meeting Request: Q2 Financial Review 2024."
+  content: |
+    <div style="font-family: Arial, sans-serif; color: #333;">
+      <p>Hi Sophia,</p>
+      <p>July 15 at 10:00 AM works perfectly.</p>
+      <p>Let's meet at our downtown office.</p>
+      <p>See you then.</p>
+      <p>Best,<br>Michael</p>
+    </div>
+  in_reply_to: "email-2"
+
+- id: "email-4"
+  from: "sophia.garcia"
+  to:
+    - "michael.lee"
+  subject: "Re: Meeting Request: Q2 Financial Review 2024."
+  content: |
+    <div style="font-family: Arial, sans-serif; color: #333;">
+      <p>Great, see you on July 15.</p>
+      <p>In the meantime, I've attached a detailed financial report for your review.</p>
+      <p>Best,<br>Sophia</p>
+    </div>
+  in_reply_to: "email-3"
+
+- id: "email-5"
+  from: "michael.lee"
+  to:
+    - "sophia.garcia"
+  subject: "Re: Meeting Request: Q2 Financial Review 2024."
+  content: |
+    <div style="font-family: Arial, sans-serif; color: #333;">
+      <p>Thanks, Sophia.</p>
+      <p>I'll review the report before our meeting.</p>
+      <p>Best,<br>Michael</p>
+    </div>
+  in_reply_to: "email-4"
