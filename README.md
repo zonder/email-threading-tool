@@ -1,6 +1,6 @@
 ## Introduction
 
-This guide provides step-by-step instructions on how to set up and use the Email Automation Script that sends emails via the Nylas API. The script reads configurations and email content from YAML files and supports email threading by managing "In-Reply-To" headers.
+This guide provides step-by-step instructions on how to set up and use the Email Threading Tool that sends emails via the Nylas API. The script reads configurations and email content from YAML files and supports email threading by managing "In-Reply-To" headers.
 
 ![Arc_tnA5g9Puwv](https://github.com/user-attachments/assets/c1da06e3-6a5c-41d5-8c74-d2547ead9158)
 
