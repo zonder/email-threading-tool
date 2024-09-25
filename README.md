@@ -83,7 +83,7 @@ Replace:
 
 - `'sender1@example.com'` with the sender's email address.
 - `'Sender One'` with the sender's name.
-- `'ACCESS_TOKEN_1'` with the grant_id obtained from Nylas for that email account.
+- `'GRANT_ID_1'` with the grant_id obtained from Nylas for that email account.
 
 ### 5. Prepare the Email Content
 
